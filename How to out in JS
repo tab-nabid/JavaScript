@@ -1,0 +1,3 @@
+alert("Welcome to my website!"); // popup massege
+document.write("The value of userName is"); // For Writing on Webpage
+console.log("Nabid Zaman"); // For showing output to Console

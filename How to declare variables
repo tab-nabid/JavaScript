@@ -1,0 +1,6 @@
+var, let, const
+var = Old system.we do not use var.In var same name variable allowed so that create Confusing. Block scope never followed. 
+
+let = Modern system. We use let. Because, let not allowed same variable again and again. That means redeclare not allowed. Value can change. Block Scope safe.
+
+Const = Fixed value. Value cannot be changed. Constant fixed.

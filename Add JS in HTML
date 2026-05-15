@@ -1,0 +1,5 @@
+External JavaScript file
+
+1. To make separte file in VS code. Such as index.js
+2. Link to HTML in 
+<body> <script src ="index.js"> </script> </body>

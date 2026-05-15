@@ -1,0 +1,14 @@
+Without variable
+
+console.log("Nabid Zaman"); //User's name
+console.log(600000); //User's Expenses
+console.log(105000);//User's Income
+
+With variable
+
+const userName = "Nabid Zaman";
+const userExpenses = 600000;
+const userIncome = 103000;
+console.log(userName);
+console.log(userExpenses);
+console.log(userIncome);*/

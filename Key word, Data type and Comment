@@ -1,0 +1,14 @@
+1. Special reserved key word-- break, case, catch, continue, debugger, default etc. Every key word must start with Small letter. And every word remains small letter.
+
+
+2. Data type -- String, Number, Boolean, Objects --(i) Number data type not be INT,FLOAT,DOUBLE all are number data type.
+
+
+Boolean only can TRUE(1),FALSE(0).
+
+String-- "Nabid Zaman loves his mother"
+
+
+3. Comment: Single line Comment,Multiple line Comment
+Single line comment= // 
+Multiple line comment=/*............*/

@@ -1,0 +1,24 @@
+// charAt function;
+let text = "Bangladesh";
+document.write(text.charAt(3));
+
+//toUpperCase function;
+let text1 = "Bangladesh";
+let text2 = text1.toUpperCase();
+document.write(text2);
+
+//toLowerCase function;
+let text3 = "BANGLAdESh";
+let text4 = text3.toLowerCase();
+document.write(text4);
+
+// concat function;
+let text1 = "Bangladesh";
+let text2 =" is a beautiful country.";
+let text3 = text1.concat(text2);
+document.write(text3);
+
+// slice function;
+let nabid = "JavaScript";
+let result = nabid.slice(4, 10);
+document.write(result);

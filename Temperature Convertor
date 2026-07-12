@@ -1,0 +1,8 @@
+var Fahrenheit = parseFloat(prompt("Enter temperature in Fahrenheit: "));
+var Celsius = (Fahrenheit - 32) * 5 / 9;
+document.write("The Celsius temperature is: "+Celsius);
+
+
+var Celsius = parseFloat(prompt("Enter temperature in Celsius:"));
+var Fahreheit = (Celsius * 9/5)+32;
+document.write("The Fahrenheit temperature is: "+Fahreheit);

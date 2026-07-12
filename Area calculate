@@ -1,0 +1,6 @@
+var base = parseFloat(prompt("Entern the base value: "));
+
+var height = parseFloat(prompt("Enter the height value: "));
+var area = 0.5 * base * height;
+
+document.write("The area is : "+area);

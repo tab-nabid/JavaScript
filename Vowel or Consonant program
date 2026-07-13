@@ -1,0 +1,7 @@
+//Vowel/Consonant program
+var letter = prompt("Enter a letter: ");
+letter = letter.toLocaleLowerCase();
+if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+    console.log("The letter is a Vowel");
+else
+    console.log("The letter is a Consonant");

@@ -1,0 +1,67 @@
+// deigit spelling
+var digit = prompt("Enter a digit from 0 to 9: ");
+switch(digit){
+    case "0":
+        console.log("The digit is zero");
+        break;
+    case "1":
+        console.log("The digit is One");
+        break;
+
+    case "2":
+        console.log("The digit is Two");
+        break;
+    case "3":
+        console.log("The digit is Three");
+        break;
+    case "4":
+        console.log("The digit is Four");
+        break;
+
+    case "5":
+        console.log("The digit is Five");
+        break;
+    case "6":
+        console.log("The digit is Six");
+        break;
+    case "7":
+        console.log("The digit is Seven");
+        break;
+    case "8":
+        console.log("The digit is Eight");
+        break;
+    case "9":
+        onsole.log("The digit is Nine");
+        break;
+        default:
+            console.log("Invalid digit");
+}
+
+//Vowel or consonant
+
+var letter = prompt("Enter a letter: ");
+letter = letter.toLowerCase();
+switch(letter){
+    case 'a':
+        console.log("The letter is a vowel");
+        break;
+
+    case 'e':
+        console.log("The letter is a vowel");
+        break;
+
+    case 'i':
+        console.log("The letter is a vowel");
+        break;
+
+    case 'o':
+        console.log("The letter is a vowel");
+        break;
+
+    case 'u':
+        console.log("The letter is a vowel");
+        break;
+        default:
+            console.log("The letter is a consonant");
+        
+}

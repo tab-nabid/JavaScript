@@ -1,0 +1,11 @@
+var number = Number(prompt("Enter a number: "));
+/*if(number>0)
+    console.log("The number is positive");
+
+else  if(number<0)
+console.log("The number is negative");
+else 
+    console.log("The number is Zero");*/
+
+var result = number>0 ? "The number is positive" : number<0 ? "The number is negative":"The number is zero";
+console.log(result);

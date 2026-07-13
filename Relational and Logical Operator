@@ -1,0 +1,18 @@
+//Relational Operators -> >,>=,<,<=,==,!=,===,!==;
+
+//Logical Operators -> &&, ||, !;
+
+var a = 10;
+if(a%2==0)
+    document.write("Even Number");
+else
+    document.write("Odd Number");
+
+document.write("<br>");
+var b =prompt("Enter a number: ");
+if(b>0)
+    document.write("Positive Number");
+else if(b<0)
+    document.write("Negative Number");
+else
+    document.write("Zero");

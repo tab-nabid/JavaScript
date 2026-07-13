@@ -1,0 +1,35 @@
+//1-100 Even numbers
+
+for(var i = 1; i<=100; i=i+2){
+    document.write("  " + i);
+}
+
+// 1-100 Odd numbers
+for(var i=2; i<=100; i=i+2){
+    document.write("  " + i);
+}
+
+// 1-10 sum of numbers
+
+var sum = 0;
+for(var i= 1; i<=10; i++){
+    sum = sum+i;
+}
+document.write("The sum of numbers: " + sum); 
+
+// 5-10 sum of numbers
+
+for(var i=5; i<=10; i++){
+    sum = sum+i;
+}
+document.write("The sum of numbers from 5 to 10: " + sum);
+
+//user input sum of numbers
+
+var s = parseInt(prompt("Enter starting number: "));
+var e = parseInt(prompt("Enter ending number: "));
+var sum = 0;
+for(var i=s; i<=e; i=i+1){
+    sum = sum + i;
+}
+document.write("The sum of numbers " + sum);

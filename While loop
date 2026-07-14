@@ -1,0 +1,21 @@
+//sum of first 10 natural numbers
+var i=1;
+var sum=0;
+while(i<=10){
+    sum=sum+i;  
+    i++;  
+}
+document.write(sum); 
+
+//Write a program that will print sum of all the numbers that are divisible by 3 and 5 between 1 and 100.
+
+var i=1;
+var sum=0;
+while(i<=100){
+    if(i%3==0 && i%5==0){
+         sum= sum+i;
+       }
+    i++;
+    }
+document.write(sum);
+

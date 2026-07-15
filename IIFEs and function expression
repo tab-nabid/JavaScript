@@ -1,0 +1,19 @@
+// Create a function
+function amma(){
+    console.log("I love amma");
+}
+// Call the function
+amma();
+
+
+//IIFEs 
+(function amma(f){
+    console.log(f);
+})("Hello World!2");
+
+//Function Expression
+var display2 = function(){
+    console.log("I love my mother");
+}
+// Call the function
+display2();

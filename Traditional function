@@ -1,0 +1,42 @@
+// Normal way
+/*var number = 5;
+var result = number  * number;
+document.write("Result: "+ result + "<br>");
+
+var number = 6;
+var result = number  * number;
+document.write("Result: "+ result + "<br>");*/
+
+// Create a function
+/*function nabid(){
+    var number2 = 7;
+    var result = number2 * number2;
+    document.write("Result: "+result +"<br>"); 
+}
+
+// Call the function
+nabid();
+nabid();*/
+
+// using parameters
+
+/*function nabid2(num12){
+    var result = num12 * num12;
+    document.write("Result: "+result +"<br>"); 
+}
+
+// Call the function
+nabid2(9);
+nabid2(10);*/
+
+// Using maultiple parameters
+
+// Create a function
+function squre (num1, num2){
+    var result =num1 * num2;
+    document.write("Result: "+result + "<br>"); 
+}
+
+// Call the function
+squre(5, 5);
+squre(6, 6);

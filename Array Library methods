@@ -1,0 +1,44 @@
+//shift()
+var names = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+console.log(names);
+names.shift()
+console.log(names);*/
+
+//unshift()
+var names = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+console.log(names);
+names.unshift("Lichi")//element add in first
+console.log(names);
+
+//slice() remove value
+var names = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+names.splice(1,3)
+console.log(names);
+//slice() value insert
+var names = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+console.log(names);
+names.splice(2,0, "Capsicum","Ginger");
+console.log(names);
+
+//slice() 
+var names = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+console.log(names)
+var newArray = names.slice(1)//just removed first element
+console.log(newArray);
+
+//Sort()
+var names = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+names.sort()
+console.log(names);
+names.reverse()
+console.log(names);
+
+// Number sort
+var number = [20,56,4,5,66,1,0,25,55,69];
+number.sort(function(a,b){
+    return a-b; // Ascending
+                // b-a Dscending
+})
+ console.log(number);
+
+

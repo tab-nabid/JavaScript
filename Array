@@ -1,0 +1,38 @@
+
+// Create an array of names;
+
+/*var names1 = new Array ();
+names1 [0] = "Alverage";
+names1 [1] = "Messi";
+names1 [2] = "Martinez";
+names1 [3] = "Paredes";
+names1 [4] = "Enzo";
+names1 [5] = "Molina";
+console.log(names1.length);*/
+
+//Another way to create Array;
+var names = ["John", "Jane", "Jack", "Jill"];
+console.log(names);
+console.log (names.lemgth);
+console.log(names[3]);
+
+//push()
+names.push("Michel");
+console.log(names);
+console.log(names.length);
+console.log(names[4]);
+
+//pop()
+names.pop(); // last element of array will be deleted;
+console.log(names);
+console.log(names.length);
+
+names.pop();
+console.log(names.length);
+
+// concat() // add two variables;
+var country1 = ["Bangladesh","India"];
+var country2 = ["Pakistan","Nepal"];
+
+var country3 = country1.concat(country2);
+console.log(country3);

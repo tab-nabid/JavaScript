@@ -1,0 +1,36 @@
+//Old system
+var name = " Nabid Zaman";
+var age = 27;
+var Department = "Software Engineering";
+
+console.log(name,age,Department);
+
+var Student = {
+    name : "Abid",
+    age : 23,
+    profession: "Businessman"
+};
+console.log(Student.profession);
+
+//Student Information store
+function Student(name,age,Departement) {
+    this.name = name;
+    this.age = age;
+    this.Departement = Departement;
+
+    this.display = function(){
+        console.log("Name: "+this.name);
+        console.log("Age: "+this.age);
+        console.log("Department: "+this.Departement);
+        console.log("\n");
+    }
+}
+// Object Create
+    var student1 = new Student("Nabid Zaman",23,"Software Engineering");
+    var student2 = new Student("Abid Zaman",23,"BBA");
+    var student3 = new Student("Razia Sultana",25,"NFE");
+
+    // method call for print
+    student1.display();
+    student2.display();
+    student3.display();
